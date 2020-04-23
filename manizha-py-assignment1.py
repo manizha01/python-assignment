@@ -9,7 +9,7 @@ while int(counter) <= num_of_courses:
     course_mark.append(float(input(f"Enter your mark for Course {counter}:  ")))
     counter +=1
 
-    # I use this for loop to print he list item in new lines
+    # I use this for loop to print list (array) item in new lines
 for elem in course_mark:
     print(elem)
 #print(course_mark)
