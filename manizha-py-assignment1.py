@@ -21,7 +21,7 @@ for number in course_mark:
     #print(total)
 
     average = total/num_of_courses
-result = input(f"Your average for your {num_of_courses} courses is:  {average}")
+print(f"Your average for your {num_of_courses} courses is:  {average}")
 #print("your average for your courses is:" + str(avg))
 
 if average >= 90  and average <= 100:
